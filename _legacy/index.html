@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bobby Group | Indian Exporter, Bengaluru</title>
+  <meta name="description" content="Bobby Group is a Bengaluru-based exporter supplying importers, distributors and food manufacturers worldwide." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#journey">Skip to content</a>
+
+  <header class="nav">
+    <a class="nav-logo" href="#top" aria-label="Bobby Group home"><img src="assets/logo.png" alt="Bobby Group" /></a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#journey">How we ship</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-blue nav-cta" href="#contact">Get a quote</a>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-grid">
+        <p class="tag"><span class="dot"></span>Bulk orders &amp; customisation</p>
+        <h1>From India's growers<br /><em>to your market.</em></h1>
+        <div class="hero-side">
+          <p>Tell us what you need, and we'll take it from there.</p>
+          <div class="hero-actions">
+            <a class="btn btn-ink" href="#contact">Get a quote</a>
+            <a class="btn btn-line" href="#journey">See how we ship ↓</a>
+          </div>
+        </div>
+      </div>
+      <dl class="hero-stats">
+        <div><dt>7</dt><dd>Registrations &amp; certifications</dd></div>
+        <div><dt>IEC</dt><dd>DGFT importer-exporter code</dd></div>
+        <div><dt>BLR</dt><dd>Based in Bengaluru, India</dd></div>
+        <div><dt>Global</dt><dd>Export shipments worldwide</dd></div>
+      </dl>
+    </section>
+
+    <!-- SCROLL JOURNEY -->
+    <section id="journey" class="journey" aria-label="How a shipment travels">
+      <div class="stage">
+        <canvas id="stage-canvas" aria-hidden="true"></canvas>
+        <div class="stage-top">
+          <span class="stage-title">The journey</span>
+          <span id="counter" class="counter">01 / 04</span>
+        </div>
+        <div id="captions" class="captions"></div>
+        <ol id="rail" class="rail"></ol>
+        <div class="stage-progress"><span id="stage-bar"></span></div>
+      </div>
+    </section>
+
+    <!-- PLACEHOLDER: content continues after the plane -->
+    <section id="about" class="after">
+      <p class="eyebrow">Next section</p>
+      <h2>Your content continues here.</h2>
+      <p>This block marks the end of the scroll story (after the plane). Send the content for the following sections and it slots in here.</p>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="footer-top">
+      <img src="assets/logo.png" alt="Bobby Group" class="footer-logo" />
+      <a class="btn btn-blue" href="mailto:info@bobbygroup.in">Send an enquiry</a>
+    </div>
+    <div class="footer-cols">
+      <div><h3>Address</h3><p>Bengaluru, Karnataka – 560083</p></div>
+      <div><h3>Phone</h3><p><a href="tel:+919880355284">+91 98803 55284</a></p></div>
+      <div><h3>Email</h3><p><a href="mailto:info@bobbygroup.in">info@bobbygroup.in</a></p></div>
+    </div>
+    <p class="footer-legal">© 2026 Bobby Group. All rights reserved.</p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/scenes.js"></script>
+  <script src="js/engine.js"></script>
+</body>
+</html>
