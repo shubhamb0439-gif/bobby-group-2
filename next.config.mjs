@@ -18,6 +18,9 @@ const nextConfig = {
       { source: "/spices/:path*", headers: longCache },
       { source: "/certs/:path*", headers: longCache },
       { source: "/logo.png", headers: longCache },
+      // 3D models and journey textures: the heaviest assets on the site, so cache them hard
+      { source: "/models/:path*", headers: longCache },
+      { source: "/textures/:path*", headers: longCache },
     ];
   },
 };
