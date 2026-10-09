@@ -15,14 +15,14 @@ export default function Hero() {
       <div className="hero-grid">
         <p className="tag rise" style={{ "--d": "0ms" }}>
           <span className="dot" />
-          Bulk orders &amp; customisation
+          Premium Indian spices &amp; coffee
         </p>
         <h1>
-          <span className="line"><span className="rise" style={{ "--d": "80ms" }}>From India&apos;s growers</span></span>
-          <span className="line"><em className="rise" style={{ "--d": "180ms" }}>to your market.</em></span>
+          <span className="line"><span className="rise" style={{ "--d": "80ms" }}>Excellent-quality Indian spices,</span></span>
+          <span className="line"><em className="rise" style={{ "--d": "180ms" }}>delivered across the world.</em></span>
         </h1>
         <div className="hero-side rise" style={{ "--d": "320ms" }}>
-          <p>Tell us what you need, and we&apos;ll take it from there.</p>
+          <p>Handpicked, quality-inspected spices sourced from India&apos;s finest growers — shipped to importers and distributors worldwide.</p>
           <div className="hero-actions">
             <a className="btn btn-ink" href="#contact">Get a quote</a>
             <a className="btn btn-line" href="#journey">See how we ship <span aria-hidden="true">↓</span></a>

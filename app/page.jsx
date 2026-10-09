@@ -1,6 +1,9 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Journey from "@/components/Journey";
+import About from "@/components/About";
+import Spices from "@/components/Spices";
+import Certifications from "@/components/Certifications";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -11,16 +14,9 @@ export default function Home() {
       <main id="top">
         <Hero />
         <Journey />
-
-        {/* PLACEHOLDER: content continues after the plane */}
-        <section id="about" className="after">
-          <p className="eyebrow">Next section</p>
-          <h2>Your content continues here.</h2>
-          <p>
-            This block marks the end of the scroll story (after the plane). Send the content for the
-            following sections and it slots in here.
-          </p>
-        </section>
+        <About />
+        <Spices />
+        <Certifications />
       </main>
       <Footer />
     </>

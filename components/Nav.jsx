@@ -21,6 +21,8 @@ export default function Nav() {
       <nav className="nav-links" aria-label="Main">
         <a href="#journey">How we ship</a>
         <a href="#about">About</a>
+        <a href="#spices">Spices</a>
+        <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
       </nav>
       <a className="btn btn-blue nav-cta" href="#contact">Get a quote</a>
