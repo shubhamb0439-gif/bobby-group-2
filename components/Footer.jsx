@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { MODEL_CREDITS } from "@/lib/journey3d/config";
 
 export default function Footer() {
   return (
@@ -13,6 +14,14 @@ export default function Footer() {
         <div><h3>Email</h3><p><a href="mailto:info@bobbygroup.in">info@bobbygroup.in</a></p></div>
       </div>
       <p className="footer-legal">© 2026 Bobby Group. All rights reserved.</p>
+      <p className="footer-credits">
+        3D models:{" "}
+        {MODEL_CREDITS.map((m, i) => (
+          <span key={m.url}>
+            <a href={m.url} target="_blank" rel="noopener noreferrer">{m.title}</a> by {m.author} ({m.license}){i < MODEL_CREDITS.length - 1 ? " · " : ""}
+          </span>
+        ))}
+      </p>
     </footer>
   );
 }

@@ -1,6 +1,6 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
-import Journey from "@/components/Journey";
+import Journey from "@/components/Journey3D";
 import About from "@/components/About";
 import Spices from "@/components/Spices";
 import Certifications from "@/components/Certifications";
