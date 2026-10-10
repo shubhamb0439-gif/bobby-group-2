@@ -65,6 +65,8 @@ export default function JourneyFrames() {
             ))}
           </strong>
         </p>
+        <p className="stage-note stage-note-a"><span className="dot" /> Bulk volumes</p>
+        <p className="stage-note stage-note-b"><span className="dot" /> Global shipping</p>
         <div className="captions">
           {JOURNEY3D.chapters.map((c, i) => (
             <article key={c.id} ref={(el) => (capRefs.current[i] = el)} className="caption">
