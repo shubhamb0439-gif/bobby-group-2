@@ -32,7 +32,7 @@ export default function Spices() {
                   src={s.img}
                   alt={s.name}
                   fill
-                  sizes="(max-width: 600px) 100vw, (max-width: 1100px) 50vw, 300px"
+                  sizes="(max-width: 620px) 100vw, (max-width: 1000px) 50vw, 33vw"
                   className="spice-img"
                 />
                 <span className="spice-tag">{s.tag}</span>

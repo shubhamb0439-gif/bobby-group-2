@@ -53,6 +53,18 @@ export default function JourneyFrames() {
           <span className="stage-title">The journey</span>
           <span ref={counterRef} className="counter">01 / {String(n).padStart(2, "0")}</span>
         </div>
+        <p className="stage-claim" aria-label="Inspected, packed and shipped on time.">
+          <span className="cl-line" aria-hidden="true">
+            {["Inspected,", "packed", "and"].map((w, i) => (
+              <span className="cl-w" key={w} style={{ "--i": i }}>{w}</span>
+            ))}
+          </span>
+          <strong className="cl-line" aria-hidden="true">
+            {["shipped", "on", "time."].map((w, i) => (
+              <span className="cl-w" key={w} style={{ "--i": i + 3 }}>{w}</span>
+            ))}
+          </strong>
+        </p>
         <div className="captions">
           {JOURNEY3D.chapters.map((c, i) => (
             <article key={c.id} ref={(el) => (capRefs.current[i] = el)} className="caption">
