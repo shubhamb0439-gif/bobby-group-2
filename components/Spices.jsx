@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 const SPICES = [
-  { name: "Turmeric", tag: "Curcumin-rich", img: "/spices/turmeric.jpg", desc: "Bright, earthy and golden." },
   { name: "Green Cardamom", tag: "Aromatic", img: "/spices/cardamom.jpg", desc: "Sweet, fragrant pods." },
   { name: "Teja S17 Red Chilli", tag: "High pungency", img: "/spices/chilli.jpg", desc: "Fiery, deep-red heat." },
   { name: "Cinnamon", tag: "Sweet & warm", img: "/spices/cinnamon.jpg", desc: "Warm, woody quills." },
-  { name: "Cloves", tag: "Intense aroma", img: "/spices/cloves-v2.jpg", desc: "Bold, pungent buds." },
   { name: "Black Pepper", tag: "King of spices", img: "/spices/pepper.jpg", desc: "Sharp, bold and clean." },
+  { name: "Turmeric", tag: "Curcumin-rich", img: "/spices/turmeric.jpg", desc: "Bright, earthy and golden." },
   { name: "Star Anise", tag: "Liquorice notes", img: "/spices/staranise.jpg", desc: "Star-shaped and sweet." },
   { name: "Cumin Seeds", tag: "Warm & nutty", img: "/spices/cumin.jpg", desc: "Earthy, warming seeds." },
+  { name: "Cloves", tag: "Intense aroma", img: "/spices/cloves.jpg", desc: "Bold, pungent buds." },
   { name: "Robusta Coffee Beans", tag: "Full-bodied", img: "/spices/coffee.jpg", desc: "Strong, rich and bold." },
 ];
 

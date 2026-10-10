@@ -5,7 +5,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 export const metadata = {
   title: "Bobby Group | Indian Exporter, Bengaluru",
   description:
-    "Bobby Group is a Bengaluru-based exporter supplying importers, distributors and food manufacturers worldwide.",
+    "Bobby Group is headquartered in Bangalore and exports premium Indian spices to importers, distributors and food manufacturers worldwide.",
   icons: { icon: "/logo.png" },
 };
 

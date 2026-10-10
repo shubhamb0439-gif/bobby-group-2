@@ -5,7 +5,9 @@ import SiteLoader from "@/components/SiteLoader";
 import About from "@/components/About";
 import Spices from "@/components/Spices";
 import Certifications from "@/components/Certifications";
+import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -19,8 +21,10 @@ export default function Home() {
         <About />
         <Spices />
         <Certifications />
+        <FAQ />
       </main>
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }

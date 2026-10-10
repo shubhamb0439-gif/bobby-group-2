@@ -1,7 +1,7 @@
 const STATS = [
   { dt: "7", dd: "Registrations & certifications" },
   { dt: "IEC", dd: "DGFT importer-exporter code" },
-  { dt: "BLR", dd: "Based in Bengaluru, India" },
+  { dt: "BLR", dd: "Headquartered in Bangalore, India" },
   { dt: "Global", dd: "Export shipments worldwide" },
 ];
 

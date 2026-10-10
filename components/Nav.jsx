@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { CONTACT } from "@/lib/contact";
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,7 +26,14 @@ export default function Nav() {
         <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a className="btn btn-blue nav-cta" href="#contact">Get a quote</a>
+      <a
+        className="btn btn-blue nav-cta"
+        href={CONTACT.enquiryForm}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Get a quote
+      </a>
     </header>
   );
 }
