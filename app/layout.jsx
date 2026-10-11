@@ -52,7 +52,7 @@ export const metadata = {
       ? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION }
       : undefined,
   },
-  icons: { icon: "/logo.png" },
+  // Icons come from app/icon.png and app/apple-icon.png via the file convention.
 };
 
 export const viewport = {
