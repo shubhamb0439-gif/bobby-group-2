@@ -1,9 +1,10 @@
 import LegalPage from "@/components/LegalPage";
 
 export const metadata = {
-  title: "Privacy Policy | Bobby Group",
+  title: "Privacy Policy",
   description:
     "How Bobby Group collects, uses, stores, discloses and protects personal information.",
+  alternates: { canonical: "/privacy-policy" },
 };
 
 export default function PrivacyPolicy() {

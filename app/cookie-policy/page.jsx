@@ -1,8 +1,9 @@
 import LegalPage from "@/components/LegalPage";
 
 export const metadata = {
-  title: "Cookie Policy | Bobby Group",
+  title: "Cookie Policy",
   description: "How Bobby Group uses cookies and similar technologies on its website.",
+  alternates: { canonical: "/cookie-policy" },
 };
 
 export default function CookiePolicy() {

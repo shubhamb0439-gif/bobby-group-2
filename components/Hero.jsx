@@ -18,7 +18,7 @@ export default function Hero() {
           Premium Indian spices &amp; coffee
         </p>
         <h1>
-          <span className="line"><span className="rise" style={{ "--d": "80ms" }}>Excellent-quality Indian spices,</span></span>
+          <span className="line"><span className="rise" style={{ "--d": "80ms" }}>Excellent-quality Indian spices,</span></span>{" "}
           <span className="line"><em className="rise" style={{ "--d": "180ms" }}>delivered across the world.</em></span>
         </h1>
         <div className="hero-side rise" style={{ "--d": "320ms" }}>

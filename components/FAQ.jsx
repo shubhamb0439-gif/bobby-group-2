@@ -145,6 +145,7 @@ const FAQS = [
   {
     cat: "Contact",
     q: "How can I contact BOBBY GROUP for a business enquiry?",
+    plain: `You can contact us through our website or email us at ${CONTACT.email}. For a faster quotation, include the product name, required quantity, destination, and preferred shipping method.`,
     a: (
       <>
         You can contact us through our website or email us at{" "}
@@ -168,6 +169,23 @@ export default function FAQ() {
 
   return (
     <section id="faq" className="faq">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: FAQS.map((f) => ({
+              "@type": "Question",
+              name: f.q,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: typeof f.a === "string" ? f.a : f.plain,
+              },
+            })),
+          }),
+        }}
+      />
       <div className="section">
         <div className="section-head">
           <p className="eyebrow"><span className="dot" /> Frequently asked questions</p>

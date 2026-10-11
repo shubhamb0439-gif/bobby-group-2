@@ -1,8 +1,9 @@
 import LegalPage from "@/components/LegalPage";
 
 export const metadata = {
-  title: "Disclaimer | Bobby Group",
+  title: "Disclaimer",
   description: "Disclaimer for information published on the Bobby Group website.",
+  alternates: { canonical: "/disclaimer" },
 };
 
 export default function Disclaimer() {

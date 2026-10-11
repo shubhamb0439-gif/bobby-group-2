@@ -1,9 +1,10 @@
 import LegalPage from "@/components/LegalPage";
 
 export const metadata = {
-  title: "Terms & Conditions | Bobby Group",
+  title: "Terms & Conditions",
   description:
     "Terms governing access to and use of the Bobby Group website and interactions with Bobby Group.",
+  alternates: { canonical: "/terms-conditions" },
 };
 
 export default function TermsConditions() {
